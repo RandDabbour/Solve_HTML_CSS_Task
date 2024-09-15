@@ -1,0 +1,89 @@
+
+.nav-bar
+{
+    background-color:#f1f1f1 ;
+}
+.logo-section
+{
+  
+    justify-content: center;
+    display: flex;
+
+}
+.logo
+{
+    max-width: 250px;
+    height: auto;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+.nav-bar li{
+    margin:20px 20px 20px 20px;
+}
+.nav-bar a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+.hero
+{
+background-image: url(../Image/foodMain.webp);
+background-size: cover ;
+background-position: center;
+color:white;
+text-align: center;
+padding: 50px 0;
+position: relative;
+}
+.hero-body
+{
+    position: relative;
+    z-index: 1;
+}
+.hero h3
+{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.CTA
+{
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.img-section
+{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    
+}
+.img-section img{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+.img-btn
+{
+position: absolute;
+bottom: 10px;
+left: 50%; 
+transform: translateX(-50%); 
+background-color: #FF6600; 
+color: #fff; 
+padding: 5px 10px; 
+text-decoration: none; 
+border-radius: 5px; 
+}

@@ -1,0 +1,334 @@
+.overline h2{
+    text-decoration: line-through;
+}
+.overline h3{
+    text-decoration: underline;
+}
+.overline h4{
+    text-decoration: underline overline;
+    
+}
+.textTrasformation h1{
+    text-transform: uppercase;
+}
+.textTrasformation h2{
+    text-transform: lowercase;
+}
+.textTrasformation h3{
+    text-transform: capitalize;
+}
+.right
+{
+    text-align: right;
+
+}
+.center
+{
+    text-align: center;
+}
+.Justify
+{
+    text-align: justify;
+}
+.font1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.font2
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font3
+{
+    font-family: 'Trirong', serif;
+}
+
+.opacity p
+{
+    color: black;
+    text-align: center;
+    background-color: red;
+   
+}
+.opacity p:first-child
+{
+  opacity: 100;
+  
+}
+.opacity p:nth-child(2)
+{
+   opacity: 0.5;
+  
+}
+.opacity p:nth-child(3)
+{
+    opacity: 0.25;
+  
+}
+.opacity p:nth-child(4)
+{
+   opacity: 0.1;
+  
+}
+.texts p:first-child
+{
+    color: red;
+}
+.texts p:nth-child(2)
+{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.texts p:nth-child(3)
+{
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+}
+.texts p:nth-child(4)
+{
+    color: pink;
+    text-shadow: 3px 3px 3px;
+}
+.texts p:nth-child(5)
+{
+    color: brown;
+    text-align: right;
+    text-decoration: line-through;
+
+}
+.texts p:nth-child(6)
+{
+color: yellow;
+text-decoration: underline;
+text-decoration-color:red ;
+}
+.overflow
+{
+    width: 500px;
+    height: 100px;
+}
+.visible
+{
+    background-color: aqua;
+    overflow: visible;
+}
+.hidden
+{
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+.scroll
+{
+    overflow: scroll;
+    background-color: violet;
+}
+.auto
+{
+    overflow: auto;
+    background-color: brown;
+}
+.overflowxy
+{
+    overflow-x: visible;
+    overflow-y: visible;
+    background-color: blueviolet;
+}
+.underline
+{
+    text-decoration: underline;
+    color: green;
+}
+.red
+{
+    color: red;
+}
+.imgOpacity
+{
+    opacity: 0.5;
+}
+.padding
+{
+    background-color: yellow;
+    padding: 20px 20px 20px 20px;
+}
+.b{
+    border: 2px;
+    border-style: double;
+    padding: left 50px;
+}
+.border
+{
+    background-color: bisque;
+}
+.hightlight1
+{
+    background-color: rgb(77, 167, 194);
+}
+.hightlight2
+{
+    background-color: rgb(189, 45, 115);
+}
+.hightlight3
+{
+    background-color: rgb(253, 30, 30);
+}
+.boarder2 p:first-child
+{
+    border: 2px;
+    border-style: ridge;
+    width: 70px;
+}
+.boarder2 p:nth-child(2)
+{
+    border: 2px;
+    border-style: solid;
+    width: 70px;
+}
+.boarder2 p:nth-child(3)
+{
+    border: 2px;
+    border-style: double;
+    width: 70px;
+}
+.box
+{
+    box-shadow: 5px 7px 5px 5px ;
+    width: 300px;
+    height: 300px;
+}
+.padding-border
+{
+    background-color: yellow;
+    padding: 20px 20px 20px 20px;
+    border: 10px solid black;
+}
+.padding-border-margin
+{
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+    padding: 20px 20px 20px 20px;
+    border: 10px solid black;
+}
+.border-img
+{
+    border: 10px solid brown;
+    padding: 30px;
+    border-image: url(../Image/border.png) 30 stretch;
+}
+.blue
+{
+    background-color: aqua;
+}
+.pink
+{
+    background-color: pink;
+}
+.colored-boarder
+{
+    border-top: 10px solid rgb(131, 207, 222);
+    border-bottom: 10px solid rgb(209, 96, 217);
+    border-width: 40px;
+    text-align: center;
+}
+.gameBtn
+{
+    color: white;
+    background-color: #7fce77;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.bgFull
+{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    padding: 2opx;
+    justify-content: center;
+    align-items: center;
+}
+.light
+{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+    margin: 50px 50px 50px 50px;
+    box-shadow: 
+    0 0 10px rgba(0, 0, 128, 0.7),  
+    0 0 20px rgba(0, 0, 255, 0.6),  
+    0 0 30px rgba(0, 128, 255, 0.5); 
+}
+
+.multuBoxShadow{
+    background-color: white; 
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 
+      0 0 0 2px blue, 
+      3px -3px 0 1px rgb(255, 255, 255),    
+      5px -5px 0 1px green, 
+      6px -6px 0 1px rgb(255, 255, 255),
+      7px -7px 0 1px yellow,   
+      8px -8px 0 1px rgb(255, 255, 255),
+      10px -10px 0 1px orange,  
+      12px -12px 0 1px rgb(255, 255, 255),
+      14px -14px 0 1px red;      
+           
+    margin-top: 40px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .border-pattern 
+  {
+    height: 800px;
+    width: 300px;
+  }
+  .border-pattern p:first-child
+  {
+    border: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, black 50%, transparent 50%) 1;
+  }
+  .border-pattern p:nth-child(2)
+  {
+    border: 5px dotted blue;
+  }
+  .border-pattern p:nth-child(3)
+  {
+    border: 5px dashed;
+  border-color: red;
+  border-image: linear-gradient(to right, red, yellow) 1;
+  }.border-pattern p:nth-child(4)
+  {
+    border: 10px double green;
+  }.border-pattern p:nth-child(5)
+  {
+    border: 5px groove;
+  border-color: purple;
+  }
+  .border-pattern p:nth-child(6)
+  {
+    border: 5px inset;
+    border-color: orange; 
+  }
+  .b12
+  {
+text-align: center;
+justify-content: center;
+align-items: center;
+  }
+  .borderMoon
+  {
+    overflow: scroll;
+    border: 5px dashed rgb(216, 158, 13);
+    background-color: yellow;
+  
+  }

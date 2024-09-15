@@ -1,0 +1,156 @@
+.red{
+    color: red;
+}
+.green{
+    color: green
+}
+.blue{
+    color: blue;
+}
+.yellow{
+    color:yellow;
+    
+}
+.color558d9e
+{
+    color: #558d9e;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pink
+{
+    color:pink;
+    font-size: x-small;
+}
+.yellow2{
+    color:yellow;
+    font-size: 3rem;
+}
+.bgcolor{
+    background-color: blue;
+    color: yellow;
+}
+span{
+    color:red;
+}
+h3{
+    color: green;
+}
+.bg-color
+{
+    background-color: blue;
+    color: white;
+}
+.bg, .repeated
+{
+    background-image: url("../Image/Moon.jpg");
+}
+.bg p{
+    color:white;
+}
+
+.repeated
+{
+background-size: 200px 200px;
+background-repeat: repeat-y;
+
+}
+div h2{
+    color:red;
+}
+#green
+{
+    color:green;
+}
+#red{
+    color: red;
+}
+.bg2
+{
+    background-image: url("../Image/eye.avif"), url("../Image/Moon.jpg");
+    background-size: 50%, 50%;
+    background-position: left top, right bottom;;
+    background-repeat: no-repeat;
+}
+.classSelector
+{
+    color: aqua;
+    text-decoration: underline;
+}
+#IdSelector
+{
+    color:green;
+    background-color: aquamarine;
+}
+.centered
+{
+    text-align: center;
+    background-color: pink;
+}
+.customBG
+{
+    background-color: #558d9e;
+}
+#blue, #pink, #orange
+{
+    color:white;
+}
+#blue
+{
+    background-color: blue;
+}
+#pink
+{
+    background-color: pink;
+}
+#orange
+{
+    background-color: orange;
+}
+.contactForm
+{
+    border: 2px solid gray;
+    text-align: center;
+    margin: 30px 80px 30px 80px;
+    background-color: antiquewhite;
+}
+.contactForm h1
+{
+    
+    background-color:#cd5c5c;
+    color: white;
+    margin: 15px 15px 15px 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contactForm input[type=text], input[type=email], #message
+{
+    width:300px;
+    height: 50px;
+    margin: 15px 15px 15px 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    border: none;
+}
+
+.contactForm input[type=submit]
+{
+    width:350px;
+    height: 50px;
+    margin: 15px 15px 15px 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: yellow;
+}
+.grad
+{
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(186deg, #1f1f7a 0%,
+     #80005a 50%,  #d4ff00 50%, #05c605 100%);
+}
+.grad p{
+    padding-top: 25px;
+}
