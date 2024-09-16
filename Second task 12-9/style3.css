@@ -12,7 +12,7 @@
 }
 .logo
 {
-    max-width: 250px;
+    max-width: 200px;
     height: auto;
 }
 .nav-bar ul{
@@ -52,9 +52,21 @@ position: relative;
     font-size: 70px;
     margin-bottom: 20px;
 }
+.hero .hero-gallery-images{
+    width: 100%!important;
+    margin: 10px;
+    text-align: center!important;
+    justify-content: space-between;
+}
+.hero .hero-gallery-images .img-section img{
+    width: 100%;
+    max-width: 300px;
+    /* height: 200px; */
+    border-radius: 8px;
+}
 .CTA
 {
-    background-color: aqua;
+    background-color: rgb(109, 181, 142);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -63,16 +75,35 @@ position: relative;
     border-radius: 8px;
     margin-top: 10px;
 }
+.featured-products{
+    text-align: center;
+    justify-content: space-between;
+
+}
+.featured-products .img-section
+{
+    width: 31.3%!important;
+    margin-left: 2px!important;
+    margin-right: 2px!important;
+    padding-left: 2px!important;
+    padding-right: 2px!important;
+    text-align: center!important;
+}
 .img-section
 {
     display: inline-block;
-    margin: 10px;
     position: relative;
     
 }
-.img-section img{
-    width: 300px;
+.hero .img-section img{
+    width: 100%;
     height: 200px;
+    border-radius: 8px;
+}
+
+.featured-products .img-section img{
+    width: 100%;
+    /* height: 200px; */
     border-radius: 8px;
 }
 .img-btn
