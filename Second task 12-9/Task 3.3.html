@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+   
     <title>Document</title>
 </head>
 <body>
-    <div class ="boarder2"></div>
-        <p>Ridge boarder</p>
-        <p>Solid boarder</p>
-        <p>Double boarder</p>
+    <style>
+        .border1 {
+            border: 5px ridge black;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .border2 {
+            border: 5px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .border3 {
+            border: 5px double black;
+            padding: 10px;
+        }
+    </style>
+  
+        <p class="border1">Ridge boarder</p>
+        <p class="border2">Solid boarder</p>
+        <p class="border3">Double boarder</p>
         </div>
 </body>
 </html>
