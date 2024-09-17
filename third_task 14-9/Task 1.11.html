@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,1fr);
+
+            
+        }
+       div{
+        width: 300px;
+        height: 200px;
+        background-color: rgb(149, 148, 146);
+        border: 1px solid black;
+        margin: 5px;
+       }
+       .grid-item9{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+       }
+       .grid-item9 div{
+        width: auto;
+        height: auto;
+        background-color: rgb(162, 231, 231);
+       }
+       .grid-item6{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+       }
+       .grid-item6 div{
+        width: auto;
+        height: auto;
+        background-color:rgb(204, 164, 164);
+       }
+       .grid-item7{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       }
+       .grid-item7 div{
+        width: auto;
+        height: auto;
+        background-color:rgb(225, 245, 187);
+       }
+    </Style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item"></div>
+        <div class="grid-item9">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        <div class="grid-item9">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item6">
+            <div></div>
+        <div></div>
+    </div>
+        <div class="grid-item7">
+            <div></div>
+             <div></div>
+    </div>
+        <div class="grid-item">8</div>
+        <div class="grid-item9">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item9"> 
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+        
+      </div>
+</body>
+</html>
