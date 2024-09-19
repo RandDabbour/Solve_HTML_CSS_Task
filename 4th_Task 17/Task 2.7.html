@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+        .Scalable-btn
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Scalable-btn button
+        {
+            background-color: blue;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 8px;
+            height: 40px;
+            width: 80px;
+            transition: 0.3s;
+        }
+        .Scalable-btn button:hover{
+            width: 110px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="Scalable-btn">
+    <button type="submit">Transition!</button>
+    </div>
+</body>
+</html>

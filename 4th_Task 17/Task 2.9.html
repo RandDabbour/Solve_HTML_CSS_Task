@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(217, 217, 217);
+        }
+        .card
+        {
+            background-color: white;
+            box-shadow: 10px 5px 5px gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 400px;
+            margin: 0px 10px 0px 10px;
+            
+        }
+        .card:hover{
+            width: 350px;
+            height: 450px;
+        }
+        .card p{
+            color: gray;
+            padding: 10px;
+            margin: 0px 10px 10px 10px;
+        }
+        .card .price-bar
+        {
+            background-color: rgb(170, 218, 255);
+            width: 100%;
+            height: 50px;
+            font-size: 2em;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card button{
+            background-color: white;
+            border: 1px solid black;
+            color: rgb(170, 218, 255);
+            width: 50%;
+            height: 40px;
+            margin: 0px 10px 10px 10px;
+        }
+        .card button:hover{
+            background-color: rgb(170, 218, 255);
+            color: rgb(255, 255, 255);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Monthly <br> Subscribtion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <span class="price-bar">20$</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, porro!</p>
+            <ul>
+                <li>40 courses</li>
+                <li>Downloadable resources</li>
+                <li>Certificate of Completion</li>
+            </ul>
+            <button type="submit">JOIN NOW</button>
+        </div>
+    </div>
+</body>
+</html>

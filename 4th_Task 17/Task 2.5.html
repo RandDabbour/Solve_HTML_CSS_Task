@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotation</title>
+    <style>
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+
+        #original {
+            position: absolute; 
+            top: 0;
+            left: 0;
+            opacity: 0.8; 
+            z-index: 1;
+        }
+
+        #rotated {
+            position: relative; 
+            z-index: 2;
+            transition: transform 0.5s ease-in-out; 
+        }
+
+        
+        #rotated:hover {
+            transform: rotate(140deg); 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <img src="../Image/Moon.jpg" height="200px" width="200px" id="original">
+        
+        <img src="../Image/Moon.jpg" height="200px" width="200px" id="rotated">
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+            margin: 50px;
+          
+        }
+
+        #shadow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.5; 
+            filter: blur(2px);
+            z-index: 0;
+        }
+
+        #rotated {
+            position: relative;
+            z-index: 1; 
+            transform-origin: bottom right;
+            transform: rotate(15deg); 
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <img src="../Image/Moon.jpg" height="200px" width="200px" id="shadow">
+        
+        <img src="../Image/Moon.jpg" height="200px" width="200px" id="rotated">
+    </div>
+</body>
+</html>
