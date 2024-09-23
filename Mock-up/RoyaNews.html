@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap News Channel Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <style>
+        .upper-nav{
+            background-color: white;
+            box-shadow: 1px 0 30px black;
+        }
+        hr
+        {
+            height: 1px;
+            background-color: rgb(129, 129, 129);
+            width: 100%;
+            
+        }
+        .bar
+        {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            justify-content: space-between;
+        }
+        .bar img{
+            display: flex;
+            width: 100px;
+            height: 70px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- First Line: News Channel Bar -->
+    <div class="container-fluid bg-light" >
+    <nav class="navbar mt-4 mb-4">
+        <div class="container upper-nav">
+            <span class="navbar-text ">
+                آخر الأخبار
+            </span>
+            <div class="d-flex">
+                <button class="btn btn-danger m-1">زر أحمر</button>
+                <button class="btn btn-primary m-1">زر أزرق</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Second Line: Logo Section -->
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col text-end">
+                <img src="../Image/RoyaNewsLogo.png" alt="Logo" class="img-fluid" style="max-height: 50px;">
+                
+            </div>
+        </div>
+    </div>
+<hr class="line">
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="row w-100">
+                <!-- Left Column: 10 Text Elements -->
+                <div class="col-6">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">الرئيسية<a class="nav-link" href="#"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> ألاردن</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> فلسطين</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> طقس</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> عربي ودولي</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> اقتصاد</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> رياضة</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> هناوهناك</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> صحة</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> تكنولوجيا</a></li>
+                    </ul>
+                </div>
+                <!-- Right Column: 4 Text Elements -->
+                <div class="col-6 text-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">انتخابات2024</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> احداث مهمة</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">فيديو</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> وفيات</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container Fluid with Two Columns -->
+    <div class="container">
+        <div class="row">
+            <!-- Right Column with One Row -->
+            <div class="col">
+                <div class="row">
+                    <div class="col bg-light">
+                        <img src="../Image/Roya1.png">
+                    </div>
+                </div>
+            </div>
+            <!-- Left Column with Three Rows -->
+            <div class="col-3">
+                <div class="row  mb-3">
+                    <div class="col bar">
+                        <div class="text">
+                            <p>hey hey</p>
+                        </div>
+                        <div class="img">
+                            <img src="../Image/Roya1.png">
+                        </div> 
+                </div>
+                <div class="row mb-3">
+                    <div class="col bar">
+                        <div class="text">
+                            <p>hey hey</p>
+                        </div>
+                        <div class="img">
+                            <img src="../Image/Roya1.png">
+                        </div> 
+                </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col bar">
+                        <div class="text">
+                            <p>hey hey</p>
+                        </div>
+                        <div class="img">
+                            <img src="../Image/Roya1.png">
+                        </div> 
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
